@@ -1,0 +1,56 @@
+/* style.css */
+
+/* Basic Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px; /* Spacing between the title and the button */
+    text-align: center;
+    font-size: 24px;
+}
+
+#kickButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* style.css */
+
+/* ... existing CSS ... */
+
+#drumKit {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 buttons in a row */
+    gap: 10px; /* Spacing between buttons */
+    margin-top: 20px;
+}
+
+.drum-button {
+    padding: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    transition: background-color 0.3s;
+}
+
+.drum-button:hover {
+    background-color: #e0e0e0;
+}
